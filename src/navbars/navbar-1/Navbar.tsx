@@ -1,8 +1,8 @@
+import { useEffect, useRef, useState } from "react";
 import "./styles.css";
 import image1 from "./1.svg";
 import image2 from "./2.svg";
 import image3 from "./3.svg";
-import { useEffect, useRef, useState } from "react";
 
 export const Navbar = () => {
   const lastScrollTop = useRef(0);
@@ -30,7 +30,6 @@ export const Navbar = () => {
   return (
     <>
       <nav className={`${isNavbarVisible ? "visible" : ""}`}>
-        <img src={logo} />
         <div className="nav-items">
           <a href="#">Portfolio</a>
           <a href="#">Skills</a>
