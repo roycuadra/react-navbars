@@ -1,5 +1,4 @@
 import "./styles.css";
-import logo from "./logo.svg";
 import image1 from "./1.svg";
 import image2 from "./2.svg";
 import image3 from "./3.svg";
